@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>restart</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+    
+  <!-- 한글 필터 -->
+  	<filter>
+		<filter-name>Set Character Encoding</filter-name>
+		<filter-class>org.apache.catalina.filters.SetCharacterEncodingFilter</filter-class>	
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value> 	
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>Set Character Encoding</filter-name>
+		<url-pattern>/*</url-pattern>			
+	</filter-mapping>
+	
+	
+  	<!-- 오류 페이지 출력 (p405) -->
+	<error-page>		<!-- 404 : 파일 없음 -->
+		<error-code>404</error-code>
+		<location>/exception_error.jsp</location>
+	</error-page>
+	
+	<error-page>
+		<error-code>500</error-code>	<!-- 505 : 심각한 오류 -->
+		<location>/exception_error.jsp</location>
+	</error-page>
+  
+  
+  
+  <!-- 서블릿 클래스 -->
+  	<servlet> <!-- 공지글 -->
+		<servlet-name>BoardController</servlet-name>
+		<servlet-class>mvc.controller.BoardController</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>BoardController</servlet-name>
+		<url-pattern>*.do</url-pattern>		<!-- .do 로 끝나면 모두 BoardController 로 처리 -->
+	</servlet-mapping>
+	
+  	<servlet> <!-- 리뷰글 -->
+		<servlet-name>ReviewController</servlet-name>
+		<servlet-class>mvc.controller.ReviewController</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ReviewController</servlet-name>
+		<url-pattern>*.rdo</url-pattern> 
+	</servlet-mapping>
+  
+  	<servlet> <!-- QnA -->
+		<servlet-name>QnaController</servlet-name>
+		<servlet-class>mvc.controller.QnaController</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>QnaController</servlet-name>
+		<url-pattern>*.qdo</url-pattern> 
+	</servlet-mapping>
+  
+  	<servlet> <!-- 댓글창 구현 -->
+		<servlet-name>CommentController</servlet-name>
+		<servlet-class>mvc.controller.CommentController</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>CommentController</servlet-name>
+		<url-pattern>*.cdo</url-pattern> 
+	</servlet-mapping>
+  
+  
+  
+</web-app>
