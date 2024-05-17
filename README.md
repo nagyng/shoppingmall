@@ -58,9 +58,6 @@
    - 메인화면 <br> 
 
    ![image](https://github.com/nagyng/shoppingmall/assets/159399610/1cee1c19-d929-4574-9183-379d4bcd9835)
-   ![image](https://github.com/nagyng/shoppingmall/assets/159399610/600e0976-cece-4e5a-a349-e86577a5e092)
-   ![image](https://github.com/nagyng/shoppingmall/assets/159399610/97aaf670-be93-4c5a-a4df-4954ae2f683f)
-   ![image](https://github.com/nagyng/shoppingmall/assets/159399610/5b18bb25-9a76-4e45-b60c-9670f9705499)
 
    - 로그인 화면 - 카카오, 네이버 로그인, 아이디 비밀번호 찾기, 회원가입<br>
 
