@@ -10,7 +10,7 @@
    
 3. DB ERD
 
-   ![image](https://github.com/nagyng/shoppingmall/assets/159399610/ce4896c6-4205-4764-8b53-2c58e09ea5de)
+   ![GAGU - 2024-04-08 13_44_53](https://github.com/nagyng/shoppingmall/assets/159399610/f828bc76-30b2-453b-909c-263acc109399)
 
 4. 사용 기술
    <table>
