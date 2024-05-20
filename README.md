@@ -6,7 +6,8 @@
 
 2. 화면구성
 
-   ![image](https://github.com/nagyng/shoppingmall/assets/159399610/5903ea64-e913-4b2c-badc-6713ccf07f97) 
+   ![양나경_JAVA_포트폴리오- pptx](https://github.com/nagyng/shoppingmall/assets/159399610/55b00f0f-7765-4d6b-8fc1-49db8c8e2005)
+
    
 3. DB ERD
 
