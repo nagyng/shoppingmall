@@ -20,7 +20,7 @@
          <th>외부 API</th>
       </tr>
       <tr>
-         <td>Java11</td>
+         <td>Java JDK11</td>
          <td>KAKAO Login</td>
       </tr>
       <tr>
@@ -28,7 +28,7 @@
          <td>KAKAO Map</td>
       </tr>
       <tr>
-         <td>Ajax</td>
+         <td>AJAX</td>
          <td>Naver Login</td>
       </tr>
       <tr>
@@ -42,7 +42,7 @@
          <td colspan="2">Eclipse</td>
       </tr>
       <tr>
-         <td colspan="2">Bootstrap</td>
+         <td colspan="2">Bootstrap 4.6</td>
       </tr>
    </table>
    
