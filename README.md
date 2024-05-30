@@ -44,7 +44,7 @@
       <tr>
          <td colspan="2">Bootstrap 4.6</td>
       </tr>
-   </table>
+   </table> 
    
 5. 개발 과정
    - 자바 Class 구조 <br>
