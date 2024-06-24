@@ -5,7 +5,7 @@
    - 관리자는 외부 API 를 응용하여, 고객에게 실시간 Q&A 서비스를 제공할 수 있고, 관리자 페이지에서 상품 / 고객 / 주문서 별 통게를 확인하고 분석 
 
 2. 화면구성
-
+ 
    ![양나경_JAVA_포트폴리오- pptx](https://github.com/nagyng/shoppingmall/assets/159399610/55b00f0f-7765-4d6b-8fc1-49db8c8e2005)
 
      
