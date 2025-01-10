@@ -12,7 +12,7 @@
 
      
 3. DB ERD
-
+ 
    ![GAGU - 2024-04-08 13_44_53](https://github.com/nagyng/shoppingmall/assets/159399610/f828bc76-30b2-453b-909c-263acc109399)
 
 4. 사용 기술
